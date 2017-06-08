@@ -1,0 +1,76 @@
+.ipynb_checkpoints
+*.pyc
+*.DS_Store
+/werlog.js
+/data
+/logs
+/exports
+# basics
+
+*.py[cod]
+
+*.pyc
+
+__pycache__
+
+
+
+# logs
+
+*.log
+
+pip-log.txt
+
+
+
+# unit test / coverage reports
+
+.coverage
+
+.tox
+
+nosetests.xml
+
+
+
+# translations
+
+*.mo
+
+*.pot
+
+
+
+# pycharm
+
+.idea
+
+
+
+# vim
+
+
+
+*~
+
+*.swp
+
+*.swo
+
+
+
+# npm
+
+node_modules/
+
+
+
+# compass
+
+.sass-cache
+
+
+
+# mac tempfile
+
+.ds_store
