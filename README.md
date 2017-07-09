@@ -1,4 +1,4 @@
-#Linear Regression using Gradient Descent
+# Linear Regression using Gradient Descent
 
 ----
 ## What it does...
@@ -18,7 +18,7 @@ To plot the points and the "Line of best fit".
 ## Output
 
 <div align="center">
-  <img src="https://www.github.com/NishkritDesai/linear_regression/blob/master/graph.png"><br>
+  <img src="linear_regression/graph.png"><br>
 </div>
 
 This is the plot of the 'Line of Best Fit' and the data point.Since the data points are *so* scattered
@@ -27,11 +27,10 @@ The line really doesn't help get a really good prediction.
 
 ----
 
-##Footnote
+## Footnote
 
 The author has also included another dataset for you to try out that shows CO2 concentration
 in the atmosphere.
 
 * Check [this](https://vincentarelbundock.github.io/Rdatasets/datasets.html) out for more datasets
-
 ----
