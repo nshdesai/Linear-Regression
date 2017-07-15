@@ -9,8 +9,8 @@ fig = plt.figure()
 ax1 = fig.add_subplot(111)
 ax1.set_title("Test data")    
 ax1.set_xlabel('time')
-ax1.set_ylabel('internet Usage per minute')
-ax1.scatter(data['x'],data['y'], c='r', label='The dataset')
+ax1.set_ylabel('Internet Usage per minute')
+ax1.scatter(data['x'],data['y'], c='r', label='datapoints')
 
 intercept = 41.1741378707
 slope = 1.5838905446

@@ -47,9 +47,10 @@ fitted_params, niepewnosci = curve_fit(double_Lorentz, x_pts, y_pts, initial_par
 a, b, A, w, x_0, A1, w1, x_01 = fitted_params
 y_fit = double_Lorentz(x_pts, a, b, A, w, x_0, A1, w1, x_01)
 
-plt.plot(y_pts, c='#42f4c2')
+plt.plot(y_pts, c='#42f4c2',label='Internet Usage')
 plt.plot(y_fit, c='#f49441')
+plt.legend(loc='upper left')
 
-fig1 = plt.gcf()
-fig1.savefig('graph_2.png', bbox_inches='tight')
+#fig1 = plt.gcf()
+#fig1.savefig('graph_2.png', bbox_inches='tight')
 plt.show()

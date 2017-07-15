@@ -21,7 +21,7 @@ To run the linear regression program with the lorentzian peak function
 
 ----
 
-##Dependecies
+## Dependecies
 
 Numpy
 
@@ -46,17 +46,17 @@ The line really doesn't help get a really good prediction.
 
 * The data points are that of internet usage per minute
 
-### Using the Double Lorentzian peak equation using a genetic algorithm
+### Using the Double Lorentzian peak equation with a genetic algorithm
 
 We observe that this straight line doesn't really tells us much about the trend in the data.
 So in order to fit the data better, instead to fitting a line we will now fit a curve.
 
-We will also add a gradient descent optimiser that is built into scipy to optimise the code even more.
-This optimiser helps us choose "good" initial points that will speed up the gradient descent process.
+We will also add a gradient descent optimizer that is built into scipy to optimise the code even more.
+This optimizer helps us choose "good" initial points that will speed up the gradient descent process.
 It will also will prevent getting stuck in a local minima.This becomes crucial when we have a more
 complex error space.
 
-We can also clearly see that the results are clearly much better
+We can also see that the results are clearly much better
 ![Graph_2](/graph_2.png?raw=true)
 
 ----
