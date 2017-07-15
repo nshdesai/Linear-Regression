@@ -9,7 +9,7 @@ fig = plt.figure()
 ax1 = fig.add_subplot(111)
 ax1.set_title("Test data")    
 ax1.set_xlabel('time')
-ax1.set_ylabel('C02 absorbiton')
+ax1.set_ylabel('internet Usage per minute')
 ax1.scatter(data['x'],data['y'], c='r', label='The dataset')
 
 intercept = 41.1741378707
