@@ -15,12 +15,25 @@ To run the linear regression program
 
 To plot the points and the "Line of best fit".
 
+    python reg_lorentzian_peak.py
+
+To run the linear regression program with the lorentzian peak function
+
 ----
 
 ##Dependecies
 
-* Requires matplotlib and numpy
+Numpy
 
+    pip install numpy
+
+Scipy
+
+    pip install scipy
+
+Matplotlib
+
+    pip install matplotlib
 
 ----
 
@@ -33,18 +46,18 @@ The line really doesn't help get a really good prediction.
 
 * The data points are that of internet usage per minute
 
-----
+### Using the Double Lorentzian peak equation using a genetic algorithm
 
-##Dependencies
+We observe that this straight line doesn't really tells us much about the trend in the data.
+So in order to fit the data better, instead to fitting a line we will now fit a curve.
 
-Numpy
+We will also add a gradient descent optimiser that is built into scipy to optimise the code even more.
+This optimiser helps us choose "good" initial points that will speed up the gradient descent process.
+It will also will prevent getting stuck in a local minima.This becomes crucial when we have a more
+complex error space.
 
-    pip install numpy
-
-Scipy
-
-    pip install scipy
-
+We can also clearly see that the results are clearly much better
+![Graph_2](/graph_2.png?raw=true)
 
 ----
 
@@ -54,4 +67,5 @@ The author has also included another dataset for you to try out that shows CO2 c
 in the atmosphere.
 
 * Check [this](https://vincentarelbundock.github.io/Rdatasets/datasets.html) out for more datasets
+
 ----
