@@ -3,8 +3,7 @@ from time import time
 
 def error_given_pts(c, m, points):
     '''
-    Actually this function is not required for the functioning
-    of this program.but it does give us a insight into whether
+    It gives us a insight into whether
     gradient descent actually happened and also tells us the
     presicion of the line of best fit.
     The total error is computed by the mean-squared error
@@ -33,13 +32,13 @@ def step_grad(c_cur, m_cur, learningRate, points):
         y = points[i,1]
         c_grad += -(2/N) * (y - (m_cur*x + c_cur))
         m_grad += -(2/N) * x * (y - (m_cur*x + c_cur))
-    #Here the learing rate becomes useful as it decides the convergence rate
+    #Here the learning rate becomes useful as it decides the convergence rate
     new_c = c_cur - (learningRate * c_grad)
     new_m  = m_cur - (learningRate * m_grad)
     return [new_c, new_m]
 
 def grad_descent_run(pts,start_c, start_m, num_iterations, learning_rate):
-    #Just performs gradient descent over the given number of iterations to
+    #Performs gradient descent over the given number of iterations to
     # get the line of best fit
     c = start_c
     m = start_m
