@@ -35,6 +35,19 @@ The line really doesn't help get a really good prediction.
 
 ----
 
+##Dependencies
+
+Numpy
+
+    pip install numpy
+
+Scipy
+
+    pip install scipy
+
+
+----
+
 ## Footnote
 
 The author has also included another dataset for you to try out that shows CO2 concentration
