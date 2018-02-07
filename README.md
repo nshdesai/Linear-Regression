@@ -23,23 +23,17 @@ To run the linear regression program with the lorentzian peak function
 
 ## Dependecies
 
-Numpy
-
+```
     pip install numpy
-
-Scipy
-
     pip install scipy
-
-Matplotlib
-
     pip install matplotlib
+```
 
 ----
 
 ## Output
 
-![Graph](/graph.png?raw=true)
+![Graph](https://raw.githubusercontent.com/nshdesai/Linear-Regression/master/graph.png)
 
 This is the plot of the 'Line of Best Fit' and the data points.Since the data points are *so* scattered
 The line really doesn't help get a really good prediction.
@@ -57,7 +51,7 @@ It will also will prevent getting stuck in a local minima.This becomes crucial w
 complex error space.
 
 We can also see that the results are clearly much better
-![Graph_2](/graph_2.png?raw=true)
+![Graph_2](https://raw.githubusercontent.com/nshdesai/Linear-Regression/master/graph_2.png)
 
 ----
 
