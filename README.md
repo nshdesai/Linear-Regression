@@ -1,10 +1,8 @@
 # Linear Regression using Gradient Descent
 
-----
 ## What it does...
 This was just a fun experiment to use **Gradient Descent** to perform linear regression. Linear regression is all about finding the *line of best fit* of all given data points.
 
-----
 ## Usage
 
     python linear_reg.py
@@ -19,8 +17,6 @@ To plot the points and the "Line of best fit".
 
 To run the linear regression program with the lorentzian peak function
 
-----
-
 ## Dependecies
 
 ```
@@ -28,8 +24,6 @@ To run the linear regression program with the lorentzian peak function
     pip install scipy
     pip install matplotlib
 ```
-
-----
 
 ## Output
 
@@ -53,8 +47,6 @@ complex error space.
 We can also see that the results are clearly much better
 ![Graph_2](https://raw.githubusercontent.com/nshdesai/Linear-Regression/master/graph_2.png)
 
-----
-
 ## Footnote
 
 The author has also included another dataset for you to try out that shows CO2 concentration
@@ -62,4 +54,3 @@ in the atmosphere.
 
 * Check [this](https://vincentarelbundock.github.io/Rdatasets/datasets.html) out for more datasets
 
-----
